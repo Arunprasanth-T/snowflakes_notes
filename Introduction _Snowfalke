@@ -1,0 +1,87 @@
+What is Snowflake?
+
+Snowflake is a cloud-based data warehouse that separates storage and compute for scalable analytics.
+
+What is Warehouse?
+
+Warehouse is the compute engine used to execute queries and process data.
+
+What is Database?
+
+A database is a logical container that stores schemas.
+
+What is Schema?
+
+A schema is a logical container inside a database that stores database objects.
+
+What is Table?
+
+A table stores actual business data in rows and columns.
+
+What are the layers of Snowflake Architecture?
+
+1)Services Layer. 
+2)Compute Layer
+3)Storage Layer
+
+
+
+Snowflake Architecture Layers
+1. Services Layer (Cloud Services Layer)
+
+Definition:
+
+The Services Layer manages authentication, security, metadata, query optimization, and transaction management.
+
+Interview Answer:
+
+The Services Layer coordinates all activities in Snowflake, including security, metadata management, and query processing.
+
+2. Compute Layer
+
+Definition:
+
+The Compute Layer consists of Virtual Warehouses that execute SQL queries and perform data processing.
+
+Interview Answer:
+
+The Compute Layer provides processing power for query execution and data transformations.
+
+3. Storage Layer
+
+Definition:
+
+The Storage Layer stores all data permanently in a compressed and optimized format.
+
+Interview Answer:
+
+The Storage Layer is responsible for storing structured and semi-structured data in Snowflake.
+
+Easy Memory
+Storage Layer
+    ↓
+Stores Data
+
+Compute Layer
+    ↓
+Processes Data
+
+Services Layer
+    ↓
+Manages Everything
+One-Line Revision
+Snowflake = Cloud Data Warehouse
+
+Warehouse = Compute Engine
+
+Database = Collection of Schemas
+
+Schema = Collection of Objects
+
+Table = Stores Data
+
+Storage Layer = Stores Data
+
+Compute Layer = Runs Queries
+
+Services Layer = Controls Everything
